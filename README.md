@@ -1,39 +1,41 @@
-📝 React_Todos
-Real-time Todo List Application | React | Node.js | Socket.io | Tailwind CSS
-A sleek, responsive, and realtime Todo List app built with React, Node.js, Express, Tailwind CSS, and Socket.io. This app lets users add, edit, delete, and toggle todos with instant synchronization across all connected users and friendly toast notifications.
+# 📝 React_Todos
 
-🚀 Features
-✍️ Add new todos effortlessly
+### Real-time Todo List Application | React | Node.js | Socket.io | Tailwind CSS
 
-✏️ Edit todos inline or in a modal
+A sleek, responsive, and realtime Todo List app built with **React**, **Node.js**, **Express**, **Tailwind CSS**, and **Socket.io**.  
+This app lets users add, edit, delete, and toggle todos with instant synchronization across all connected users and friendly toast notifications.
 
-🗑️ Delete todos with confirmation
+---
 
-✅ Toggle todo completion status
+## 🚀 Features
 
-🌐 Realtime updates across all users via Socket.io
+- ✍️ **Add new todos effortlessly**  
+- ✏️ **Edit todos inline or in a modal**  
+- 🗑️ **Delete todos with confirmation**  
+- ✅ **Toggle todo completion status**  
+- 🌐 **Realtime updates across all users via Socket.io**  
+- 🔔 **Instant toast notifications on all actions**  
+- 📱 **Fully responsive design with Tailwind CSS**
 
-🔔 Instant toast notifications on all actions
+---
 
-📱 Fully responsive design with Tailwind CSS
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Frontend: React, Tailwind CSS, React-toastify (for toasts)
+- **Frontend:** React, Tailwind CSS, React-toastify (for toasts)  
+- **Backend:** Node.js, Express.js  
+- **Realtime:** Socket.io  
+- **Notifications:** React-toastify
 
-Backend: Node.js, Express.js
+---
 
-Realtime: Socket.io
+## ⚙️ Installation & Setup
 
-Notifications: React-toastify
+1. **Clone the repository:**
 
-⚙️ Installation & Setup
-Clone the repository:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/react_todos.git
 cd react_todos
+
 Install dependencies:
 
 bash
