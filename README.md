@@ -103,6 +103,6 @@ If you have any questions or want to connect, feel free to reach out:
 
 - Email: vipulsangwan771@gmail.com  
 - GitHub: [github.com/vipulsangwan771](https://github.com/vipulsangwan771)  
-- LinkedIn: [[linkedin.com/in/vipulsangwan771](https://linkedin.com/in/vipulsangwan771](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile))
+- LinkedIn: [[[linkedin.com/in/vipulsangwan771](https://linkedin.com/in/vipulsangwan771](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)](https://www.linkedin.com/in/vipul-sangwan-a3173b262/))
 
 Thank you for checking out React_Todos! 🚀
