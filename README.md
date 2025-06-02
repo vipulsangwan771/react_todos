@@ -1,8 +1,8 @@
 # 📝 React_Todos
 
-### Real-time Todo List Application | React | Node.js | Socket.io | Tailwind CSS
+### Real-time Todo List Application | React | Node.js | Socket.io | Tailwind CSS | MongoDB
 
-A sleek, responsive, and realtime Todo List app built with **React**, **Node.js**, **Express**, **Tailwind CSS**, and **Socket.io**.  
+A sleek, responsive, and realtime Todo List app built with **React**, **Node.js**, **Express**, **Tailwind CSS**, **Socket.io**, and **MongoDB**.  
 This app lets users add, edit, delete, and toggle todos with instant synchronization across all connected users and friendly toast notifications.
 
 ---
@@ -23,6 +23,7 @@ This app lets users add, edit, delete, and toggle todos with instant synchroniza
 
 - **Frontend:** React, Tailwind CSS, React-toastify (for toasts)  
 - **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
 - **Realtime:** Socket.io  
 - **Notifications:** React-toastify
 
@@ -32,60 +33,76 @@ This app lets users add, edit, delete, and toggle todos with instant synchroniza
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/yourusername/react_todos.git
-cd react_todos
+    ```bash
+    git clone https://github.com/yourusername/react_todos.git
+    cd react_todos
+    ```
 
-Install dependencies:
+2. **Install dependencies:**
 
-bash
-Copy
-Edit
-# Backend
-cd server
-npm install
+    ```bash
+    # Backend
+    cd server
+    npm install
 
-# Frontend
-cd ../client
-npm install
-Run the servers:
+    # Frontend
+    cd ../client
+    npm install
+    ```
 
-bash
-Copy
-Edit
-# Backend
-cd ../server
-npm start
+3. **Set up MongoDB:**
 
-# Frontend
-cd ../client
-npm start
-Open the app in your browser:
+    Make sure you have MongoDB installed and running locally, or use a cloud service like MongoDB Atlas.
 
-http://localhost:3000
+4. **Create a `.env` file in the `server` directory with your MongoDB connection string:**
 
-🔍 How It Works
-Backend: Express server powered with Socket.io manages todos and broadcasts realtime updates.
+    ```ini
+    MONGO_URI=your_mongodb_connection_string
+    ```
 
-Frontend: React app listens to Socket.io events to update the todo list instantly across clients.
+5. **Run the servers:**
 
-Data: Todos can be stored in-memory or connected to a database depending on your setup.
+    ```bash
+    # Backend
+    cd ../server
+    npm start
 
-Notifications: React-toastify triggers instant feedback messages on todo actions like adding, updating, or deleting.
+    # Frontend
+    cd ../client
+    npm start
+    ```
 
-📸 Screenshots
-Add your app screenshots here for visual impact and presentation.
+6. **Open the app in your browser:**
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+    ```
+    http://localhost:3000
+    ```
 
-📫 Contact
+---
+
+## 🔍 How It Works
+
+- **Backend:** Express server powered with Socket.io and MongoDB manages todos and broadcasts realtime updates.  
+- **Frontend:** React app listens to Socket.io events to update the todo list instantly across clients.  
+- **Data:** Todos are persisted in MongoDB, providing reliable data storage and retrieval.  
+- **Notifications:** React-toastify triggers instant feedback messages on todo actions like adding, updating, or deleting.
+
+---
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the issues page.
+
+---
+
+## 📫 Contact
+
 If you have any questions or want to connect, feel free to reach out:
 
-Email: vipulsangwan771@gmail.com
-
-GitHub: github.com/vipulsangwan771
-
-LinkedIn: linkedin.com/in/vipulsangwan771
+- Email: vipulsangwan771@gmail.com  
+- GitHub: [github.com/vipulsangwan771](https://github.com/vipulsangwan771)  
+- LinkedIn: [linkedin.com/in/vipulsangwan771](https://linkedin.com/in/vipulsangwan771)
 
 Thank you for checking out React_Todos! 🚀
