@@ -261,7 +261,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header title="To Do List" searchBar={false} />
+        <Header title="To-Dos ⏳" searchBar={false} />
         {loading && (
           <div
             className="position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex justify-content-center align-items-center"

@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container bg-dark " style={footerStyle}>
         <div className="row bg-dark" >
           <div className="col-md-6 mb-3 mb-md-0">
-            <p className="mb-0 text-white  p-4">© {date} Todo App, All Rights Reserved</p>
+            <p className="mb-0 text-white  p-4">© {date} ⏳, All Rights Reserved</p>
           </div>
           <div className="col-md-6 mt-4 mb-md-0">
             <div className="d-flex justify-content-center justify-content-md-center mb-4">
